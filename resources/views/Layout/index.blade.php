@@ -10,7 +10,7 @@
     {!! Html::style('') !!}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SpaceLab</title>
+    <title>CUSTODE</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- Favicon -->
@@ -46,7 +46,7 @@
     <header id="header">
         <!--logo start-->
         <div class="brand">
-            <a href="index.html" class="logo"><span>Space</span>Lab</a>
+            <a href="/" class="logo"><span>CUSTODE</span></a>
         </div>
         <!--logo end-->
         <div class="toggle-navigation toggle-left">
@@ -56,113 +56,22 @@
         </div>
         <div class="user-nav">
             <ul>
-                <li class="dropdown messages">
-                    <span class="badge badge-danager animated bounceIn" id="new-messages">5</span>
-                    <button type="button" class="btn btn-default dropdown-toggle options" id="toggle-mail" data-toggle="dropdown">
-                        <i class="fa fa-envelope"></i>
-                    </button>
-                    <ul class="dropdown-menu alert animated fadeInDown">
-                        <li>
-                            <h1>You have <strong>5</strong> new messages</h1>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="profile-photo">
-                                    <img src="assets/img/avatar.gif" alt="" class="img-circle">
-                                </div>
-                                <div class="message-info">
-                                    <span class="sender">James Bagian</span>
-                                    <span class="time">30 mins</span>
-                                    <div class="message-content">Lorem ipsum dolor sit amet, elit rutrum felis sed erat augue fusce...</div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <div class="profile-photo">
-                                    <img src="assets/img/avatar1.gif" alt="" class="img-circle">
-                                </div>
-                                <div class="message-info">
-                                    <span class="sender">Jeffrey Ashby</span>
-                                    <span class="time">2 hour</span>
-                                    <div class="message-content">hendrerit pellentesque, iure tincidunt, faucibus vitae dolor aliquam...</div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <div class="profile-photo">
-                                    <img src="assets/img/avatar2.gif" alt="" class="img-circle">
-                                </div>
-                                <div class="message-info">
-                                    <span class="sender">John Douey</span>
-                                    <span class="time">3 hours</span>
-                                    <div class="message-content">Penatibus suspendisse sit pellentesque eu accumsan condimentum nec...</div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <div class="profile-photo">
-                                    <img src="assets/img/avatar3.gif" alt="" class="img-circle">
-                                </div>
-                                <div class="message-info">
-                                    <span class="sender">Ellen Baker</span>
-                                    <span class="time">7 hours</span>
-                                    <div class="message-content">Sem dapibus in, orci bibendum faucibus tellus, justo arcu...</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="profile-photo">
-                                    <img src="assets/img/avatar4.gif" alt="" class="img-circle">
-                                </div>
-                                <div class="message-info">
-                                    <span class="sender">Ivan Bella</span>
-                                    <span class="time">6 hours</span>
-                                    <div class="message-content">Curabitur metus faucibus sapien elit, ante molestie sapien...</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li><a href="#">Check all messages <i class="fa fa-angle-right"></i></a>
-                        </li>
-                    </ul>
-
-                </li>
                 <li class="profile-photo">
                     <img src="assets/img/avatar.png" alt="" class="img-circle">
                 </li>
                 <li class="dropdown settings">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        Mike Adams <i class="fa fa-angle-down"></i>
+                        Andres Jara <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu animated fadeInDown">
                         <li>
-                            <a href="#"><i class="fa fa-user"></i> Profile</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-calendar"></i> Calendar</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-envelope"></i> Inbox <span class="badge badge-danager" id="user-inbox">5</span></a>
+                            <a href="#"><i class="fa fa-sign-in"></i> Login</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-power-off"></i> Logout</a>
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <div class="toggle-navigation toggle-right">
-                        <button type="button" class="btn btn-default" id="toggle-right">
-                            <i class="fa fa-comment"></i>
-                        </button>
-                    </div>
-                </li>
-
             </ul>
         </div>
     </header>
@@ -171,10 +80,10 @@
         <div id="leftside-navigation" class="nano">
             <ul class="nano-content">
                 <li class="active">
-                    <a href="index.html"><i class="fa fa-dashboard"></i><span>Dashboard</span></a>
+                    <a href="/Funcionarios"><i class="fa fa-users"></i><span>FUNCIONARIOS</span></a>
                 </li>
                 <li class="sub-menu">
-                    <a href="javascript:void(0);"><i class="fa fa-cogs"></i><span>UI Elements</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                    <a href="javascript:void(0);"><i class="fa fa-tasks"></i><span>SECCIONES Y CARGOS</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                     <ul>
 
                         <li><a href="ui-alerts-notifications.html">Alerts &amp; Notifications</a>
@@ -198,7 +107,7 @@
                     </ul>
                 </li>
                 <li class="sub-menu">
-                    <a href="javascript:void(0);"><i class="fa fa-table"></i><span>Tables</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                    <a href="javascript:void(0);"><i class="fa  fa-male"></i><span>INVITADOS</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                     <ul>
                         <li><a href="tables-basic.html">Basic Tables</a>
                         </li>
@@ -207,7 +116,7 @@
                     </ul>
                 </li>
                 <li class="sub-menu">
-                    <a href="javascript:void(0);"><i class="fa fa fa-tasks"></i><span>Forms</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                    <a href="javascript:void(0);"><i class="fa fa-users"></i><span>USUARIOS</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                     <ul>
                         <li><a href="forms-components.html">Components</a>
                         </li>
@@ -224,7 +133,7 @@
                     </ul>
                 </li>
                 <li class="sub-menu">
-                    <a href="javascript:void(0);"><i class="fa fa-envelope"></i><span>Mail</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                    <a href="javascript:void(0);"><i class="fa fa-clock-o"></i><span>HORARIOS</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                     <ul>
                         <li><a href="mail-inbox.html">Inbox</a>
                         </li>
@@ -233,7 +142,7 @@
                     </ul>
                 </li>
                 <li class="sub-menu">
-                    <a href="javascript:void(0);"><i class="fa fa-bar-chart-o"></i><span>Charts</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                    <a href="javascript:void(0);"><i class="fa fa-credit-card"></i><span>LICENCIAS</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                     <ul>
                         <li><a href="charts-chartjs.html">Chartjs</a>
                         </li>
@@ -243,21 +152,19 @@
                     </ul>
                 </li>
                 <li class="sub-menu">
-                    <a href="javascript:void(0);"><i class="fa fa-map-marker"></i><span>Maps</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                    <a href="javascript:void(0);"><i class="fa fa-pencil-square-o"></i><span>GESTION DE AREAS</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                     <ul>
-                        <li><a href="map-google.html">Google Map</a>
-                        </li>
-                        <li><a href="map-vector.html">Vector Map</a>
+                        <li><a href="/GestionAreas">AREAS</a>
                         </li>
                     </ul>
                 </li>
                 <li class="sub-menu">
-                    <a href="typography.html"><i class="fa fa-text-height"></i><span>Typography</span></a>
+                    <a href="/ControlAreas"><i class="fa  fa-unlock-alt"></i><span>CONTROL DE AREAS</span></a>
                 </li>
                 <li class="sub-menu">
-                    <a href="javascript:void(0);"><i class="fa fa-file"></i><span>Pages</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+                    <a href="javascript:void(0);"><i class="fa fa-bar-chart-o"></i><span>ESTADISTICAS</span><i class="arrow fa fa-angle-right pull-right"></i></a>
                     <ul>
-                        <li><a href="pages-blank.html">Blank Page</a>
+                        <li><a href="/Estadisticas">GENERAR ESTADISTICAS</a><!--CONSULTAR-->
                         </li>
                         <li><a href="pages-login.html">Login</a>
                         </li>
@@ -273,6 +180,15 @@
                         </li>
                     </ul>
                 </li>
+                <li class="sub-menu">
+                    <a href="typography.html"><i class="fa  fa-legal"></i><span>AUDITORIAS</span></a>
+                </li>
+                <li class="sub-menu">
+                    <a href="typography.html"><i class="fa   fa-file-text"></i><span>REPORTES</span></a>
+                </li>
+                <li class="sub-menu">
+                    <a href="typography.html"><i class="fa   fa-leaf"></i><span>AHORRO DE ENERGIA</span></a>
+                </li>
             </ul>
         </div>
 
@@ -281,28 +197,7 @@
     <!--main content start-->
     <section class="main-content-wrapper">
         <section id="main-content">
-            <!--tiles start-->
-
-            <!--aca primer corte-->
-            <!--tiles end-->
-            <!--dashboard charts and map start-->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">TITULO</h3>
-                            <div class="actions pull-right">
-                                <i class="fa fa-chevron-down"></i>
-                                <i class="fa fa-times"></i>
-                            </div>
-                        </div>
-                        <div class="panel-body">
-                            @yield('content')
-                        </div>
-                    </div>
-                </div>
-                <!--segundo corte-->
-            </div>
+            @yield('content')
         </section>
     </section>
     <!--main content end-->
