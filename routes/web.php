@@ -23,4 +23,3 @@ Route::post('/Puertas','PuertasController@store');
 Route::get('/ControlAreas','Control_AreasController@controlareas');
 Route::get('/Estadisticas','EstadisticasController@vistaEstadisticas');
 Route::get('/puerta/{puerta}/edit','PuertasController@edit')->name('puerta');
-Route::get('','');#controlador de pagina no encontrada
